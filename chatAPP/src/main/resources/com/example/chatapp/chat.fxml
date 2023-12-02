@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.SepiaTone?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.chatapp.Controller">
+   <children>
+      <Line endX="285.0" layoutX="115.0" layoutY="70.0" startX="-115.0">
+         <effect>
+            <SepiaTone />
+         </effect></Line>
+      <Line endX="285.0" layoutX="115.0" layoutY="538.0" startX="-115.0" />
+      <ImageView fitHeight="55.0" fitWidth="82.0" layoutX="290.0" layoutY="5.0" onMouseClicked="#switchToCall" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/Call2.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="290.0" layoutY="134.0" prefHeight="43.0" prefWidth="73.0" style="-fx-border-color: black; -fx-border-radius: 50; -fx-background-color: white; -fx-background-radius: 50;" text="Hello">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="20.0" layoutY="177.0" prefHeight="42.0" prefWidth="66.0" style="-fx-border-color: black; -fx-border-radius: 50; -fx-background-color: pink; -fx-background-radius: 50;" text="hi">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <ImageView fitHeight="43.0" fitWidth="43.0" layoutX="10.0" layoutY="546.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/picture.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="43.0" layoutX="349.0" layoutY="546.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/send.PNG" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="285.0" layoutY="240.0" prefHeight="43.0" prefWidth="74.0" style="-fx-border-color: black; -fx-border-radius: 50; -fx-background-color: white; -fx-background-radius: 50;" text="Good bye!">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="26.0" layoutY="300.0" prefHeight="43.0" prefWidth="53.0" style="-fx-border-color: black; -fx-border-radius: 50; -fx-background-color: pink; -fx-background-radius: 50;" text="Byeeee!">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <TextField layoutX="75.0" layoutY="549.0" prefHeight="36.0" prefWidth="250.0" style="-fx-border-color: black;" />
+      <ImageView fitHeight="55.0" fitWidth="66.0" layoutX="4.0" layoutY="2.0" onMouseClicked="#switchToMenu" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/back.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="MenuPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.chatapp.Controller">
+   <children>
+      <Button fx:id="start" layoutX="119.0" layoutY="289.0" mnemonicParsing="false" onMouseClicked="#switchToChat" prefHeight="62.0" prefWidth="161.0" style="-fx-background-color: blue;" text="Let's Go" textFill="WHITE">
+         <font>
+            <Font name=".VnBlack" size="23.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label alignment="CENTER" layoutX="58.0" layoutY="71.0" prefHeight="81.0" prefWidth="284.0" text="Welcome" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font name="Bernard MT Condensed" size="49.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
